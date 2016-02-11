@@ -1,5 +1,6 @@
 DSE (DataStax Search Enterprise) 4.8.2 docker image.
-For testing purposes only!
+===================================================
+**For testing purposes only!**
 This container starts DSE and populates it with the "wikipedia demo" data. It also creates necessary Solr metadata and indexes.
 The container launches supervisord before running Cassandra in order to start a background task which should enable Solr capabilities, populate database with sample data and generate indexes.
 This script is defined in init-data.sh.
